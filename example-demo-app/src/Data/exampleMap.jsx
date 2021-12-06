@@ -8,6 +8,7 @@ import {
   VerticalExample,
   CustomStyledExample,
   CustomCursorExample,
+  Playground,
 } from 'Examples';
 
 const prefixPath =
@@ -41,5 +42,9 @@ export default {
   'resize-observer': {
     fileName: `${prefixPath}ResizeObserver.jsx`,
     example: <ResizeObserverExample />,
+  },
+  'play-ground': {
+    fileName: `${prefixPath}Playground.jsx`,
+    example: <Playground />,
   },
 };

@@ -26,7 +26,9 @@ export default React.memo(function App() {
         <ExampleItem id="resize-observer" />
       </ul>
       <h2>Playground</h2>
-      <p>(todo)</p>
+      <ul>
+        <ExampleItem id="play-ground" />
+      </ul>
     </main>
   );
 });

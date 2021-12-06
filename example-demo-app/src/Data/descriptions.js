@@ -35,4 +35,7 @@ export default {
     subheader:
       'In this example, the component adapts to every resize of the parent element, by using "ResizeObserver".\nNotice that IE and old-version browsers may not support ResizeObserver. In this case, consider using "onresize" instead.',
   },
+  'play-ground': {
+    subheader: '',
+  },
 };
