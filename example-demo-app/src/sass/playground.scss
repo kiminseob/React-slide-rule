@@ -6,4 +6,16 @@
   padding: 1.5rem;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 0.25rem;
+
+  &-input {
+    display: flex;
+    margin: 1rem 0;
+    &-container {
+      margin-right: 1rem;
+    }
+  }
+
+  &-description {
+    color: rgba(0, 0, 0, 0.6);
+  }
 }
